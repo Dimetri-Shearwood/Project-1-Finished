@@ -1,0 +1,150 @@
+body {
+    background-color: #e8e8e4;
+    border: 2px solid lightgray;
+    padding: 15px 10px 10px 10px;
+    background-size: cover;
+}
+
+.intro-material {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+
+.main {
+    display: flex;
+   justify-content: center;
+   font-size: 60px;
+}
+
+.overhead {
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-image: url("https://images.unsplash.com/photo-1565710545039-46c9a7d22959?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTd8fGJhY2tkcm9wfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    width: 100%;
+    margin: 0px 0px 100px 0px;
+    background-size: cover;
+}
+
+.picture {
+   text-align: center;
+}
+
+nav {
+    width: 100%;
+    font-size: 16px;
+    padding: 0px; 
+     display: flex;
+    justify-content: center; 
+    
+}
+
+a {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: orange;
+  }
+
+
+li {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+
+.hacross {
+    height: 1px;
+    border-top: 3px solid #fcd5ce;
+    width: 20%;
+    margin: 4px 0px 30px 100px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.hacross2 {
+    border-top: 4px solid lightgrey;
+    width: 80%;
+    margin: 0px 0px 0px 100px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+
+.job {
+    font-size: 40px;
+    color: white;
+}
+
+p {
+    margin: 50px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    text-decoration: italic;
+    list-style-type: none;
+}
+
+.contact-bar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name, .phone, .email, .message {
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    margin: 5px;
+}
+
+.facebook, .twitter, .instagram {
+    padding: 5px;
+    font-size: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+    
+  }
+  /* Medium devices (tablets, 768px and up) */
+  @media screen and (min-width: 768px) {
+    
+  }
+  /* Large devices (desktops, 992px and up) */
+  @media screen and (min-width: 992px) {
+    
+  }
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media screen and (min-width: 1200px) {
+    
+  }
